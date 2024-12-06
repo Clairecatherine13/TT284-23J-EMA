@@ -26,6 +26,24 @@ header img {
 
 
 
+.nav {
+    padding-left: 5px;
+    background-color: #D3D3D3;
+}
+
+.nav-unselected {
+    text-decoration: underline;
+    background-color: #D3D3D3;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.nav-selected {
+    text-decoration: underline;
+    background-color: #D3D3D3;
+    color: #2563eb;
+    border: 1px solid #000000;
+}
 
 
 button {
