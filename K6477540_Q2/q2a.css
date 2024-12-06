@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #2563eb;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header button {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+header img {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+
+button {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+}
