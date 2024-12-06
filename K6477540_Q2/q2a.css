@@ -46,6 +46,34 @@ header img {
 }
 
 
+.main {
+    padding: 2px;
+    display: flex; 
+    justify-content: center;
+}
+
+table {
+    margin-top: 10px;
+    width: 750;
+}
+
+
+.right-align {
+   display: flex; 
+   justify-content: flex-end;
+}
+
+input, select, textarea {
+    margin-bottom: 15px;
+    border: 2px solid #e5e7eb;
+    width: 100%; 
+    padding: 5px;
+}
+
+input[type="submit"] {
+    width: 50%;
+}
+
 button {
     background-color: #2563eb;
     color: #ffffff;
