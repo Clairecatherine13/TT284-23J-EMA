@@ -21,11 +21,11 @@
         <form method="POST" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php">
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="name" required />
             </div>
             <div class="form-group">
                 <label for="type">Type:</label>
-                <select name="type" id="type">
+                <select name="type" id="type" required>
                     <option value="">Choose Type...</option>
                     <option value="road">Road</option>
                     <option value="cyclocross">Cyclocross</option>
@@ -35,35 +35,35 @@
             </div>
             <div class="form-group">
                 <label for="date">Date:</label>
-                <input type="date" name="date" id="date" />
+                <input type="date" name="date" id="date" required />
             </div>
             <div class="form-group">
                 <label for="start_time">Start time:</label>
-                <input type="time" name="start_time" id="start_time" />
+                <input type="time" name="start_time" id="start_time" required />
             </div>
             <div class="form-group">
                 <label for="duration">Duration (Mins):</label>
-                <input type="number" name="duration" id="duration" />
+                <input type="number" name="duration" id="duration" required />
             </div>
             <div class="form-group">
                 <label for="meeting_point">Meeting Point:</label>
-                <input type="text" name="meeting_point" id="meeting_point" />
+                <input type="text" name="meeting_point" id="meeting_point" required />
             </div>
             <div class="form-group">
                 <label for="distance">Distance (KM):</label>
-                <input type="number" name="distance" id="distance" />
+                <input type="number" name="distance" id="distance" required />
             </div>
             <div class="form-group">
                 <label for="elevation">Elevation (M):</label>
-                <input type="number" name="elevation" id="elevation" />
+                <input type="number" name="elevation" id="elevation" required />
             </div>
             <div class="form-group">
                 <label for="max_group_size">Max group size (M):</label>
-                <input type="number" name="max_group_size" id="max_group_size" />
+                <input type="number" name="max_group_size" id="max_group_size" required />
             </div>
             <div class="form-group">
                 <label for="leader_name">Leader name:</label>
-                <select name="leader_name" id="leader_name">
+                <select name="leader_name" id="leader_name" required>
                     <option value="">Pick Member..</option>
                     <option value="1">Claire Hickey</option>
                     <option value="2">Olivia Bennett</option>
@@ -73,7 +73,7 @@
             </div>
             <div class="form-group">
                 <label for="contact_number">Contact number:</label>                    
-                <input type="text" name="contact_number" id="contact_number" />
+                <input type="text" name="contact_number" id="contact_number" required />
             </div>
             <div class="form-group">
                 <label for="alt_contact_number">Alt contact number:</label>
